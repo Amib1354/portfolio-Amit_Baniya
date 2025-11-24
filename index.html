@@ -1,7 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title></title>
-<body>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Amit_Baniya</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
+<body>
+
+    <header>
+        <h1>Amit Baniya</h1>
+        <p>Welcome to my portfolio</p>
+
+        <!-- ADDED PROFILE PICTURE -->
+        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is a short introduction about my selft Amit Baniya .</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Web Developer</p>
+        <p>Student </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>@2025 Amit Baniya</p>
+    </footer>
+
+</body>
 </html>
